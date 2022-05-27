@@ -12,12 +12,14 @@ sqlite3 flaskr.sqlite
 直接在sqlite3命令行中执行 schema.sql 
 
 ## 运行
-直接运行 __init__.py
+直接运行 `__init__.py`
 
 访问
-测试
+1. 测试
 http://127.0.0.1:5000/hello
-注册
+2. 注册
 http://127.0.0.1:5000/auth/register
-登录
+3. 登录
 http://127.0.0.1:5000/auth/login
+4. 博客
+http://127.0.0.1:5000/
