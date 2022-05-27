@@ -1,5 +1,9 @@
-## db
+# flaskr
+flask官方文档pdf中的demo
+
+## 初始化db
 1. sqlite3介绍
+https://blog.csdn.net/rrrrrr89098087/article/details/109309016
 http://192.168.0.170:4999/web/#/10?page_id=924
 
 2. 连接sqlite
@@ -9,7 +13,10 @@ sqlite3 flaskr.sqlite
 ```
 
 3. 初始化db
-直接在sqlite3命令行中执行 schema.sql 
+直接在sqlite3客户端中执行 schema.sql 
+```
+.read schema.sql
+```
 
 ## 运行
 直接运行 `__init__.py`
